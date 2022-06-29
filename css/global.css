@@ -1,0 +1,54 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body,
+form,
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    justify-content: space-between;
+}
+
+.container-header,
+footer {
+    background-color: #78CAE4;
+    color: #FFF;
+}
+
+.container-header {
+    height: 64px;
+}
+
+.container-header>h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+button {
+    background-color: #78CAE4;
+    color: #FFF;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+main,
+footer {
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    height: 30px;
+}

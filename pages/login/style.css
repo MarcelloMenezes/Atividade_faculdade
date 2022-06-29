@@ -1,0 +1,20 @@
+.container-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+form>a {
+    background-color: #78CAE4;
+    color: #FFF;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}
